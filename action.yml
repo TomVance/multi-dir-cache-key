@@ -1,0 +1,12 @@
+name: "Multi Directory Cache Key"
+description: "Greet someone and record the time"
+inputs:
+  paths:
+    description: "Array of directory paths to include"
+    required: true
+outputs:
+  hash:
+    description: "Generated hash for all paths"
+runs:
+  using: "node16"
+  main: "dist/index.js"
